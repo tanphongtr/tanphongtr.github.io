@@ -57,11 +57,3 @@ services:
 💡 **`depends_on` không kiểm tra nếu DB đã khởi động hoàn toàn**, vì vậy `wait-for-it.sh` giúp đảm bảo **ứng dụng chỉ khởi động khi database đã sẵn sàng**.
 
 ---
-
-## 4️⃣ Tổng kết
-✅ **`wait-for-it.sh` giúp tránh lỗi kết nối khi service chưa sẵn sàng**  
-✅ **Có thể tích hợp vào `Dockerfile` hoặc `docker-compose.yml`**  
-✅ **Giúp ứng dụng hoạt động ổn định hơn trong môi trường Docker**  
-
-Bạn muốn tích hợp nó vào dự án nào? 🚀
-
